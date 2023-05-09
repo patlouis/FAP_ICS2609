@@ -1,4 +1,4 @@
-# HanoverStore
+# Fry Me to the Moon
 project
 
 # Git Tutorial
