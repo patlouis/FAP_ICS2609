@@ -14,7 +14,7 @@ Follow this [Git setup](https://www.theodinproject.com/lessons/foundations-setti
 ## Common Git commands
 ``` bash
 # clone chosen repository (make sure you're a collaborator, if not ask repo owner)
-git clone git@github.com:css-enjoyer/HanoverStore.git
+git clone https://github.com/patlouis/ICS2609_FAP.git
 
 # implement new features and updates by creating a new branch and switching to it
 # good practice to avoid bugs getting mixed with master branch
