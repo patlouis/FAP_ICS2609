@@ -26,7 +26,7 @@
             <h1>404 Error</h1>
         </header>
         <main>
-            <img src="Images/Scarecrow.png" alt="Scarecrow Image"/>
+            <img src="../Images/Scarecrow.png" alt="Scarecrow Image"/>
             <div class="hero">
                 <h2>Page Not Found</h2>
                 <p>

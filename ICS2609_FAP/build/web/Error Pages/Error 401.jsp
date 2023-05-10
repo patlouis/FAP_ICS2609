@@ -11,7 +11,7 @@
         <!-- title -->
         <title>401 - Authorization Required</title>
 
-        <link rel="stylesheet" href="css/styles1.css"/>
+        <link href="../css/styles1.css" rel="stylesheet" type="text/css"/>
 
         <!-- google font  -->
         <link rel="preconnect" href="https://fonts.googleapis.com" />
@@ -26,7 +26,7 @@
             <h1>401 Error</h1>
         </header>
         <main>
-            <img src="Images/Scarecrow.png" alt="Scarecrow Image"/>
+            <img src="../Images/Scarecrow.png" alt="Scarecrow Image"/>
             <div class="hero">
                 <h2>Authorization Required</h2>
                 <p>
