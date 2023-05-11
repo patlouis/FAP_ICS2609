@@ -154,7 +154,7 @@
     <!-- ENCRYPTION KEY -->
     <context-param>
         <param-name>security_key</param-name>
-        <param-value>ics_2609ics_2609</param-value>
+        <param-value>_FryMetotheMoon_</param-value>
     </context-param>
     <listener>
         <listener-class>Model.Security</listener-class>
