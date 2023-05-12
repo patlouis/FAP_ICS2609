@@ -1,13 +1,6 @@
 
 <%@page contentType="text/html" pageEncoding="UTF-8"%>
 
-<%
-    response.setHeader("Cache-Control", "no-cache, no-store, must-revalidate");
-    response.setHeader("Pragma", "no-cache");
-    response.setHeader("Expires", "0");
-    session.invalidate();
-%>
-
 <!DOCTYPE html>
 <html lang="en">
     <!-- Head -->
@@ -97,6 +90,12 @@
 
             <div align="center">
                 <h5>New user? <a href="signup.jsp">Create an account</a></h5>
+            </div>
+
+            <br>
+
+            <div align="center">
+                <h5>Return to <a href="landing.jsp">Landing page</a></h5>
             </div>
 
             <br />&nbsp;<br /><br />&nbsp;<br /><br />&nbsp;<br /><br />&nbsp;<br /><br>

@@ -66,7 +66,7 @@
                 </div>
 
                 <!-- Form -->
-                <form action="SignupServlet" method="get" id="contact-form">
+                <form action="SignupServlet" method="post" id="contact-form">
                     <!-- Name -->
                     <div class="form-group">
                         <label for="name">Username</label>
@@ -119,6 +119,10 @@
                     <button type="submit" id="submit" class="btn">Sign up</button>
 
                 </form>
+
+                <div align="center">
+                    <h5>Return to <a href="landing.jsp">Landing page</a></h5>
+                </div>
 
             </section>
 

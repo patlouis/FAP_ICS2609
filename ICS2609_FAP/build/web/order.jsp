@@ -7,6 +7,9 @@
 
 <%
     response.setHeader("Cache-Control", "no-cache, no-store, must-revalidate");
+    if (session.getAttribute("username") == null) {
+        response.sendRedirect("landing.jsp");
+    }
     Inventory inventory = new Inventory();
     ArrayList<Product> pList = inventory.getProductInvetory();
     Product pOffer = inventory.getProductOffer();
