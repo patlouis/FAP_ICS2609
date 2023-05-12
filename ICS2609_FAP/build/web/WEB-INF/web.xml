@@ -51,7 +51,7 @@
         <url-pattern>/LoginServlet</url-pattern>
     </servlet-mapping>
     
-        <!-- SIGNUPSERVLET -->
+    <!-- SIGNUPSERVLET -->
     <servlet>
         <servlet-name>SignupServlet</servlet-name>
         <servlet-class>Controller.SignupServlet</servlet-class>
@@ -101,7 +101,7 @@
         <url-pattern>/SignupServlet</url-pattern>
     </servlet-mapping>
     
-        <!-- ADMINSERVLET -->
+    <!-- ADMINSERVLET -->
     <servlet>
         <servlet-name>AdminServlet</servlet-name>
         <servlet-class>Controller.AdminServlet</servlet-class>
@@ -213,6 +213,7 @@
     </session-config>
     <welcome-file-list>
         <welcome-file>landing.jsp</welcome-file>
+        <welcome-file>menu.jsp</welcome-file>
     </welcome-file-list>
     <error-page>
         <error-code>401</error-code>
