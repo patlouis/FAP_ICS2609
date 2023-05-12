@@ -67,7 +67,7 @@
                 </div>
 
                 <!-- Form -->
-                <form action="AdminServlet" method="get" id="contact-form">
+                <form action="AdminServlet" method="post" id="contact-form">
                     <!-- Name -->
                     <div class="form-group">
                         <label for="name">Username</label>

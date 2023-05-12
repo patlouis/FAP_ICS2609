@@ -8,6 +8,9 @@
 
 <%
     response.setHeader("Cache-Control", "no-cache, no-store, must-revalidate");
+    if (session.getAttribute("username") == null) {
+        response.sendRedirect("landing.jsp");
+    }
     if (session.getAttribute("cart-list") == null) {
         ArrayList<Cart> sessionCart = new ArrayList();
         session.setAttribute("cart-list", sessionCart);
