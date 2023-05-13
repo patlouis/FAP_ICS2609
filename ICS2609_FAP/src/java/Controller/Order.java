@@ -25,7 +25,7 @@ public class Order extends HttpServlet {
             sessionCart.clear();
             session.setAttribute("cart-list", sessionCart);
         }
-        response.sendRedirect("home.jsp");
+        //response.sendRedirect("home.jsp");
 
     }
 
