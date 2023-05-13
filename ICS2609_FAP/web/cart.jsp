@@ -74,9 +74,15 @@
 
             <br />&nbsp;<br />
 
-            <form>
-                <input type="submit" formaction="Order" value="Place Order" class="btn"/>
+            <form action="CustomerReceipt" method="POST">
+                <!--hidden attributes for receipt-->
+                <input type="hidden" name="total" value="<%= cartTotal%>">
+                <%
+                session.setAttribute("order", cart_list);
+                %>
+                <input type="submit" value="Place Order" class="btn"/>
             </form>
+<!--formaction="Order"-->
 
         </div>
         <br />&&nbsp;<br /><br />&nbsp;<br /><br />&nbsp;<br /><br />&nbsp;<br /><br />&nbsp;<br /><br />&nbsp;<br /><br />&nbsp;<br /><br />&nbsp;<br /><br />&nbsp;<br /><br />&nbsp;<br /><br />&nbsp;<br /><br />&nbsp;<br /><br />&nbsp;<br />

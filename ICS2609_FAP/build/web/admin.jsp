@@ -138,7 +138,7 @@
                 %>
 
                 <!-- Form -->
-                <form action="GeneratePdfServlet" method="get" id="contact-form">
+                <form action="AdminReceipt" method="POST" id="contact-form">
                     <!-- Hidden input field for username -->
                     <input type="hidden" name="username" value="<%= username%>">
                     <!-- Button -->
