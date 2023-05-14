@@ -62,7 +62,7 @@
             <section id="contact">
                 <!-- Section title -->
                 <div align="center">
-                    <h1>Add Record</h1>
+                    <h1>Add Record hi</h1>
                     <h5>Please add username and password</h5>
                 </div>
 
@@ -138,11 +138,11 @@
                 %>
 
                 <!-- Form -->
-                <form action="GeneratePdfServlet" method="get" id="contact-form">
+                <form action="AdminReceipt" method="POST" id="contact-form">
                     <!-- Hidden input field for username -->
                     <input type="hidden" name="username" value="<%= username%>">
                     <!-- Button -->
-                    <button type="submit" id="submit" class="btn">Generate Admin Report</button>
+                    <button type="submit" id="submit" class="btn">Generate Admin Receipt</button>
                     <a href="login.jsp">Log out</a>
                 </form>
 
@@ -152,7 +152,7 @@
 
             <!-- Footer -->
             <footer id="footer">
-                Submitted by Patrick Louis T. Rivera, for ICS2609 Machine Problem 4.
+                Copyright 2023 © All rights reserved.
             </footer>
         </div>
         <br>
